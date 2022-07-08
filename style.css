@@ -5,13 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-h2{
-     
-}
 p{
     color: dimgray;
 }
-.name{
+.violet{
     color: blueviolet;
 }
 .half-width{
@@ -43,4 +40,27 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    height: 50%;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:0% ;
+}
+
+#full-stack{
+    border-left: 3px solid;
+    border-image: linear-gradient(blueviolet,blue);
+    border-image-slice: 1;
+}
+#baby-stack{
+    border-left: 3px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
